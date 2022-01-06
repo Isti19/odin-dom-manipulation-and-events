@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation and Events</title>
+    <script src="js-file.js" defer></script>
+</head>
+<h1>DOM Manipulation and Events</h1>
+<body>
+    <div id="container"></div>
+
+    <!-- Method 1 of DOM Events -->
+    <button onclick="alert('Hello World -  Method 1')">Button 1</button>
+    <!-- Method 1 using function-->
+    <button onclick="alertFunction()">Button 1F - Using Function</button>
+
+    <!-- Method 2 of DOM Events -->
+    <!-- Check 'js-file.js' for js code that goes with this -->
+    <button id="btn2">Button 2</button>
+    <!-- Method 2 using function -->
+    <button id="btn2f">Button 2F - Using Function</button>
+
+    <!-- Method 3 of DOM Events -->
+    <!-- Check 'js-file.js' for js code that goes with this -->
+    <button id="btn3">Button 3</button>
+    <!-- Method 3 using function -->
+    <button id="btn3f">Button 3F - Using Function</button>
+
+    <!-- Method 4 (e) -->
+    <button id="btn4">Button 4 - e</button>
+
+    <!-- Method 5 e.target -->
+    <button id="btn5">Button 5 - e.target</button>
+
+    <!-- Method 6 e.target.style.background -->
+    <button id="btn6">Button 6 - e.target.style.background</button>
+
+    <!-- Attaching listeners to groups of nodes -->
+    <div id='container'>
+        <button id='1'>Click Me</button>
+        <button id='2'>Click Me</button>
+        <button id='3'>Click Me</button>
+    </div>
+
+</body>
+</html>
